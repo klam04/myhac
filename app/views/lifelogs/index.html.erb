@@ -1,0 +1,16 @@
+<div id="title">
+<img src="assets/myhac_title.png">
+</div>
+<div id="main">
+<h>&nbsp;</h>
+<div id="log_shadow">
+<%= form_for @lifelog do |form| %>
+<p>今何してる？<%= form.text_field :ll_memo %>&nbsp;<%= form.submit 'now！' ,:id =>"sub_log" %></p>
+<%= form.hidden_field  :ll_date , :value => Time.now%>
+<%= form.hidden_field  :ll_user , :value => "test_user"%>
+<% end %>
+</div>
+<% @lifelogs.each do |lifelog| %>
+<%= render 'lifelog', :lifelog => lifelog %>
+<% end %>
+</div>

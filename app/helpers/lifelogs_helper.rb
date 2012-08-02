@@ -1,0 +1,2 @@
+module LifelogsHelper
+end

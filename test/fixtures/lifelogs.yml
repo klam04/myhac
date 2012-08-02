@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ll_date: 2012-04-04 17:49:28
+  ll_memo: MyString
+  ll_user: MyString
+
+two:
+  ll_date: 2012-04-04 17:49:28
+  ll_memo: MyString
+  ll_user: MyString

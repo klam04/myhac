@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+#title{
+	background: #555555;
+	color:#cdcdcd;
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	vertical-align: middle;
+	width:460px;
+	height:42px;
+}
+#main{
+	background-image: url("/assets/bluedash.gif");
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	width:450px;
+	height:100%;
+	min-height:100%;
+	border-left:5px double #b22222;
+}
+body > #main {
+
+    height: auto;
+
+}
+#sub_log {
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #ccc;
+	padding: 5px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #666;
+}
+#log_shadow{
+    width: 420px;
+    min-width: 420px;
+    min-height: 67px;
+    height: 67px;
+    margin: auto;
+    background: #C8FF75;
+    border: 5px solid white;
+    position:relative;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.80);
+}
